@@ -43,3 +43,14 @@ Este proyecto corresponde a la evaluación final de la asignatura **Programació
    ```bash
    git clone [https://github.com/diegodonoso4-design/examen-componentes.git](https://github.com/diegodonoso4-design/examen-componentes.git)
    cd examen-componentes
+
+---
+
+## 📱 Empaquetado Móvil y Firma Digital (Cordova)
+
+1. Transfiera el contenido de la carpeta `dist/` a la carpeta `www/` del contenedor Cordova.
+2. Compilación del proyecto:
+   ```bash
+   cordova build android --release
+
+3. Firmar la app usando las herramientas de Java keytool y jarsigner.
